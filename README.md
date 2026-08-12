@@ -96,24 +96,6 @@ cd backend
 npm install
 ```
 
-Create `.env`:
-
-```env
-PORT=3000
-
-DATABASE_URL=postgresql://hemanth@localhost:5432/rag_chatbot
-
-REDIS_HOST=localhost
-REDIS_PORT=6379
-
-GEMINI_API_KEY=your_gemini_api_key
-GEMINI_GENERATION_MODEL=gemini-3.5-flash
-GEMINI_EMBEDDING_MODEL=gemini-embedding-001
-EMBEDDING_DIMENSIONS=3072
-
-RETRIEVAL_TOP_K=5
-```
-
 ## 3. PostgreSQL
 
 Create the database:
